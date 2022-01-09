@@ -4,6 +4,7 @@
   "description": "CST3145 Second Group Assessment (Developing a back-end server for a previous after-school-lessons application, with a Mongo, Express and Node stack)",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/felixfavour/lessons-api/issues"
   },
-  "homepage": "https://github.com/felixfavour/lessons-api#readme"
+  "homepage": "https://github.com/felixfavour/lessons-api#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
