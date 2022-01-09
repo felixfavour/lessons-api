@@ -1,0 +1,13 @@
+{
+  "name": "lessons-api",
+  "version": "1.0.0",
+  "description": "CST3145 Second Group Assessment (Developing a back-end server for a previous after-school-lessons application, with a Mongo, Express and Node stack)",
+  "scripts": {
+    "start": "nodemon api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Group",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
