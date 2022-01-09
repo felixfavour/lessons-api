@@ -1,0 +1,19 @@
+{
+  "name": "lessons-api",
+  "version": "1.0.0",
+  "description": "CST3145 Second Group Assessment (Developing a back-end server for a previous after-school-lessons application, with a Mongo, Express and Node stack)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixfavour/lessons-api.git"
+  },
+  "author": "Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixfavour/lessons-api/issues"
+  },
+  "homepage": "https://github.com/felixfavour/lessons-api#readme"
+}
