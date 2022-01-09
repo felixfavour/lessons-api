@@ -10,11 +10,21 @@
 <body>
   <h1>Lessons List</h1>
   <div id="app">
-
+    <p> {{ lessons }} </p>
   </div>
   <script>
     const app = new Vue({
-      el: '#app'
+      el: '#app',
+      data: {
+        lessons: []
+      },
+      methods: {
+        async getAllLessons () {
+          const BASE_URL = 'http://localhost:3000'
+          const lessonsPromise = await fetch(`${BASE_URL}/lessons`)
+          this.lessons = lessonsPromise.json()
+        }
+      }
     });
   </script>
 </body>
