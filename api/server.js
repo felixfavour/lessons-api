@@ -1,10 +1,14 @@
 const express = require('express')
+const cors = require('cors')
 
 const lessons = require('./static/lessons')
 const user = require('./static/user')
 
 const app = express()
 const port = 3000
+
+// Add CORS middleware to allow cross origin resource sharing
+app.use(cors())
 
 // Routes
 // GET request to retrieve all lessons
